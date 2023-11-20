@@ -1,0 +1,398 @@
+
+/* ipad style */
+
+@media screen and (max-width: 1200px) and (min-width:800px) {
+    .header_area{
+        width: 90%;
+        padding: 15px 0;
+    }
+    .nav li{
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .section_area1{
+        width: 90%;
+    }
+    .info1 h1{
+        font-size: 42px;
+
+    }
+    .section_area2{
+        width: 90%;
+    }
+    .info2 h1{
+        font-size: 30px;
+    }
+    .section_area3{
+        width: 90%;
+    }
+    .section_area4 {
+        width: 90%;
+    }
+    .section_area5{
+        width: 90%;
+    }
+    .item{
+        padding: 20px 5px;
+    }
+    .section_area6{
+        width: 90%;
+    }
+    .imgx1 img{
+        max-width: 100%;
+         padding-right: 0px;
+     }
+    .imgx2 img{
+        max-width: 100%;
+        padding-right: 0px;
+    }
+    .section_area7{
+        width: 90%;
+    }
+    .plans{
+        margin: 0 auto;
+        padding: 0px ;
+    }
+    .plan1,
+    .plan2,
+    .plan3,
+    .plan4{
+      text-align: center;
+      padding: 30px 0 ;
+      margin: 0 auto;
+    }
+    .section_area8{
+        width: 90%;
+    }
+    .info6{
+        width: 95%;
+    }
+    .section_area9 {
+        width: 95%;
+    }
+    .footer_area{
+        width: 90%;
+    }
+}
+/* laptob design */
+@media screen and (min-width:1201px) and (max-width:1500px) {
+    .header_area{
+        width: 70%;
+        padding: 15px 0;
+    }
+    .section_area1{
+        width: 75%;
+    }
+    .info1 h1{
+        font-size: 50px;
+    }
+    .section_area2{
+        width: 75%;
+    }
+    .section_area3{
+        width: 75%;
+    }
+    .section_area4{
+        width: 75%;
+    }
+    .section_area5{
+        width: 75%;
+    }
+    .section_area6{
+        width: 70%;
+    }
+    .section_area7{
+        width: 70%;
+    }
+    .section_area8{
+        width: 70%;
+    }
+    .info6{
+        width: 95%;
+    }
+    .section_area9{
+        width: 70%;
+    }
+    .footer_area{
+        width: 70%;
+    }
+}
+ /* Mobail design */
+@media screen and (min-width:250px) and (max-width:799px) {
+      /* this is header area */
+    
+    .header{
+        width: 100%;
+        background: #3498db;
+        position:static;
+        z-index: 999;
+    }
+    .header_area{
+        width: 90%;
+        display: block;
+        padding: 15px;
+        padding: 30px 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav li{
+        display:block;
+        padding: 10px 5px;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        background:#2980b9;
+    }
+    .nav li a{
+        width: 90%;
+        display: block;
+        padding: 5px 0;
+        margin: auto;
+        font-size: 15px;
+        background: #2c3e50;
+        color: rgb(243, 235, 235);
+    }
+    .nav li a:hover{
+        width: 90%;
+        background: #C3272B ;
+        color: white;
+    }
+    /* section one area */
+    .section_area1{
+        width: 90%;
+        margin: auto;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+    }
+    .info1{
+        width: 90%;
+        padding: 30px 5px;
+        margin: auto;
+    }
+    .imgs{
+        width: 90%;
+        display: block;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 34px 0;
+    
+    }
+    .imgx img{
+        max-width: 90%;
+    }
+    .info1 h1{
+        margin: 20px 0;
+        font-size: 40px;
+    }
+    .info1 p{
+        font-size: 16px;
+    }
+    .img1 img{
+        max-width: 95%;
+    }
+    /* section two area */
+
+
+    .section_area2{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+    }
+    .info2{
+        width: 90%;
+        margin: auto;
+        padding: 30px 5px;
+        margin-left: auto;
+    
+    }
+    .img2{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        padding: 0;
+        background: rgb(129, 15, 15);
+    }
+    .info2 h1{
+        font-size: 30px;
+    }
+    .img2 img{
+        border: none; 
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+        margin-right: auto;
+        border-radius: auto;
+        box-shadow: none;
+    }
+    /* section tree area */
+
+
+    .section_area3{
+        width: 90%;
+        margin: auto;
+        padding: 10px 0;
+    }
+    .service_offer{
+        width: 90%;
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .service_offer h1{
+       color: black;
+       font-size: 25px;
+       padding: 20px 0 ;
+    }
+    .service_offer p{
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .all_service{
+          display: block;
+          margin: auto;
+          text-align: center;
+          padding-bottom: 80px;
+    }
+    .all_service i{
+        font-size: 38px;
+        color: rgb(117, 105, 105);
+        padding: 10px;
+    }
+    /* section four area */
+
+
+    .section_area4 {
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 5px;
+    }
+    .section_area4 p {
+    padding-bottom: 10px;
+    }
+    /* section five area */
+
+    .section_area5{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    .titles{
+        padding: 120px 5px;
+    }
+    /* section six area */
+
+    .section_area6{
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+    .feedbacks{
+        display: block;
+        row-gap: 20px;
+    }
+    .feedback{
+        display: flex;
+        padding: 40px 5px;
+        background: white;
+    }
+    .info4 h1{
+        font-size: 25px;
+      }
+    .imgx1 img{
+        max-width: 95%;
+         padding-right: 0px;
+    }
+    .imgx2 img{
+        max-width: 95%;
+        padding-right: 0px;
+    }
+    /* section seven area */
+
+    .section_area7{
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+    .info5{
+        text-align: center;
+        padding: 60px;
+    }
+    .plans{
+        background: #F9F9FF;
+        padding: 30px ;
+        display: block;
+    }
+    /* section eight */
+    .section8{
+     background:#F9F9FF;
+    }
+    .section_area8{
+     width: 90%;
+     text-align: center;
+     margin: auto;
+     padding: 55px 0;
+
+    }
+    .info6{
+     width: 90%;
+     margin: auto;
+     padding: 60px;
+    }
+    .info6 h1{
+     padding: 20px 0;
+     font-size: 25px;
+    }
+    .posts{
+     display: block;
+     justify-content: center;
+    }
+     /* section nine area */
+    .section_area9 {
+     width: 90%;
+     margin: 0 auto;
+     padding: 80px 0;
+    }
+    #ix{
+     display: block;
+     align-items: center;
+      justify-content: center;
+      text-align: center;
+     padding: 20px;
+    }
+    #ix >div {
+        padding: 15px;
+    }
+    /* footer area */
+    .footer_area{
+     width: 90%;
+     margin: 0 auto;
+     padding: 80px 0;
+    }
+    .secx{
+     display: block;
+     text-align: center;
+     padding: 30px 0;
+     column-gap: 20px;
+    }
+    .sec1{
+        width: 100%;
+    }
+ 
+
+}
