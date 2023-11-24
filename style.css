@@ -28,30 +28,39 @@ h1,h2,h3,h4,h5,h6 {
 .header_area{
     width: 1140px;
     margin: 0 auto;
-    display: flex;
     padding: 15px;
+}
+nav{
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav li{
+nav li{
     display: inline-block;
     list-style-type: none;
     padding-left: 10px;
     padding-right: 10px;
     cursor: pointer;
 }
-.nav li:focus{
-    color: #C3272B;
-}
-.nav li a{
+
+nav li a{
  text-decoration: none;
  font-size: 12px;
  font-weight: 600;
  color: black;
  cursor: pointer;
 }
-.nav li a:hover{
+nav li a:hover{
+    color: #C3272B;
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    display: none;
+}
+a.active{
     color: #C3272B;
 }
 /* section one */
